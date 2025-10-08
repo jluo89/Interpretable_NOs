@@ -3,19 +3,21 @@
 
 </div>
 
-This repository provides the official source code and implementation for the paper: "Can Data-Driven Dynamics Reveal Hidden Physics? There Is A Need for Interpretable Neural Operators"
+This repository provides the official source code and implementation for the paper: **"Can Data-Driven Dynamics Reveal Hidden Physics? There Is A Need for Interpretable Neural Operators"**
 
-Wenhan Gao, Jian Luo, Fang Wan, Ruichen Xu, Xiang Liu, Haipeng Xing, Yi Liu
+**Wenhan Gao**\*, **Jian Luo**\*, Fang Wan, Ruichen Xu, Xiang Liu, Haipeng Xing, Yi Liu<sup>†</sup>
 
-Our full paper is available on [ArXiv](https://arxiv.org/pdf/2510.02683v1).
+\* Equal contribution
+
+<sup>†</sup> Coresponding Author
 
 <p align="center">
 <img src="figures/wave_propagation.gif" alt="Wave Propagation GIF" width="650"/>
 
-
-
 <em>Animation demonstrating how a trained Neural Operator captures the complex spatio-temporal dynamics of wave propagation.</em>
 </p>
+
+Our full paper is available on [ArXiv](https://arxiv.org/pdf/2510.02683v1).
 
 ## 📖 Introduction
 Across diverse areas of science and engineering, researchers aim to understand how physical systems behave under varying parameters, such as different initial conditions, external forcing, or coefficient functions. Simulating such systems with traditional numerical solvers is often computationally prohibitive, as every change in parameters requires re-solving the governing equations.
@@ -24,11 +26,11 @@ Recently, Neural Operators (NOs) have emerged as a powerful, data-driven paradig
 
 Despite the successes of NOs in fields like climate modeling and fluid dynamics, their explainability and internal learning mechanisms remain underexplored. Understanding how a model makes its predictions is critical, especially when applied to high-stakes scientific tasks like forecasting natural disasters. This project addresses this gap by:
 
-Proposing a method to explain the prediction-making process of neural operators, revealing whether they have learned the physics hidden in the data.
+- Proposing a method to explain the prediction-making process of neural operators, revealing whether they have learned the physics hidden in the data.
 
-Demonstrating experimentally that neural operators can indeed learn underlying physical patterns, such as spatial dependencies, from data.
+- Demonstrating experimentally that neural operators can indeed learn underlying physical patterns, such as spatial dependencies, from data.
 
-Highlighting the critical need to incorporate known physics priors (inductive biases) into the network architecture to ensure models are not only accurate but also consistent with fundamental physical principles.
+- Highlighting the critical need to incorporate known physics priors (inductive biases) into the network architecture to ensure models are not only accurate but also consistent with fundamental physical principles.
 
 ## 🔬 Core Findings & Visualization
 Our research investigates the learning mechanisms of neural operators by visualizing the model's "Effective Receptive Field" (ERF), which offers an intuitive way to see what the model has learned.
