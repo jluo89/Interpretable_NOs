@@ -34,7 +34,7 @@ Highlighting the critical need to incorporate known physics priors (inductive bi
 Our research investigates the learning mechanisms of neural operators by visualizing the model's "Effective Receptive Field" (ERF), which offers an intuitive way to see what the model has learned.
 
 1. Neural Operators Can Learn Physics From Data
-We found that well-trained neural operators can accurately capture the spatial dependencies in physical systems. As shown below, the dependency patterns learned by the model closely match the analytical solution derived from the wave equation.
+- We found that well-trained neural operators can accurately capture the spatial dependencies in physical systems. As shown below, the dependency patterns learned by the model closely match the analytical solution derived from the wave equation.
 
 <p align="center">
 <img src="figures/wave.png" alt="Learned vs Analytical Dependencies" width="850"/>
@@ -47,7 +47,7 @@ We found that well-trained neural operators can accurately capture the spatial d
 </p>
 
 2. Different Architectures Exhibit Varying Learning Capabilities
-Not all model architectures learn physical details with the same fidelity. We compared five mainstream neural operator architectures and found significant differences in their performance. Models like CNO and Galerkin Transformer, whose weights are defined spatially and whose activations are applied directly on a grid, perform better at capturing fine-scale wave patterns.
+- Not all model architectures learn physical details with the same fidelity. We compared five mainstream neural operator architectures and found significant differences in their performance. Models like CNO and Galerkin Transformer, whose weights are defined spatially and whose activations are applied directly on a grid, perform better at capturing fine-scale wave patterns.
 
 <p align="center">
 <img src="figures/wave_results.png" alt="Comparison of different models" width="850"/>
@@ -60,7 +60,7 @@ Not all model architectures learn physical details with the same fidelity. We co
 </p>
 
 3. The Importance of Embedding Physics Priors
-To improve the learning efficiency, generalization, and explainability of the models, we advocate for embedding known physical priors (e.g., symmetries) directly into the network architecture. This approach constrains the model's search space to a physically meaningful subspace, proving more effective and reliable than simply adding physics-based constraints to the loss function.
+- To improve the learning efficiency, generalization, and explainability of the models, we advocate for embedding known physical priors (e.g., symmetries) directly into the network architecture. This approach constrains the model's search space to a physically meaningful subspace, proving more effective and reliable than simply adding physics-based constraints to the loss function.
 
 <p align="center">
 <img src="figures/Physics Rules.png" alt="Physics Priors" width="850"/>
