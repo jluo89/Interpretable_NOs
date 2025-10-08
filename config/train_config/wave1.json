@@ -1,0 +1,11 @@
+{
+    "ntrain": 800,
+    "ntest": 100,
+    "nplot": 100,
+    "h": 64,
+    "r": 1,
+    "in_channel_dim": 1,
+    "out_channel_dim": 1,
+    "y_norm": true,
+    "t":1
+}

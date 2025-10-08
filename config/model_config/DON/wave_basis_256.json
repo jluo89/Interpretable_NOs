@@ -1,0 +1,16 @@
+{
+    "batch_size": 32,
+    "learning_rate": 5e-4,
+    "epochs": 1000,
+    "in_channels": 1,
+    "N_layers": 4,
+    "N_res": 4,
+    "kernel_size": 3,
+    "multiply": 32,
+    "basis": 256,
+    "N_Fourier_F":1,
+    "trunk_layers":4,
+    "trunk_neurons": 256,
+    "norm": false,
+    "grid": true
+}

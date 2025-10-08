@@ -1,0 +1,12 @@
+{
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "epochs": 1000,
+    "modes1": 12,
+    "modes2": 12,
+    "width": 20,
+    "layers": 5,
+    "kernel": 1,
+    "grid": false,
+    "norm": false
+}

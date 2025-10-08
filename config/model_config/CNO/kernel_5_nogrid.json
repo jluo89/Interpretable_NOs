@@ -1,0 +1,12 @@
+{
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "epochs": 1000,
+    "N_layers": 3,
+    "N_res": 4,
+    "N_res_neck": 6,
+    "channel_multiplier": 48,
+    "norm": false,
+    "grid": false,
+    "kernel": 5
+}
