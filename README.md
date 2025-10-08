@@ -7,7 +7,7 @@ This repository provides the official source code and implementation for the pap
 
 **Wenhan Gao**\*, **Jian Luo**\*, Fang Wan, Ruichen Xu, Xiang Liu, Haipeng Xing, Yi Liu<sup>†</sup>
 
-\* Equal contribution
+\* Equal Contribution
 
 <sup>†</sup> Corresponding Author
 
