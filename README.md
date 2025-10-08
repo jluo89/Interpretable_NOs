@@ -173,7 +173,7 @@ Explaiable_NOs/
 Neural operators have already demonstrated remarkable promise as data-driven tools for simulating complex physical systems. However, their success hinges not only on predictive accuracy but also on our ability to explain what has been learned and to align it with physical principles. We believe that explainable neural operators can be transformed from fast emulators into engines for scientific discovery. When combined with architectures that embed physical priors, they can become reliable predictive tools and interpretable models that reveal new insights about the natural world.
 
 # Citation
-If you use our work or code in your research, please cite our paper:
+If this repository was helpful for your research, we would appreciate a citation of our paper:
 ```bibtex
 @misc{gao2025datadrivendynamicsrevealhidden,
       title={Can Data-Driven Dynamics Reveal Hidden Physics? There Is A Need for Interpretable Neural Operators},
