@@ -9,7 +9,7 @@ This repository provides the official source code and implementation for the pap
 
 \* Equal contribution
 
-<sup>†</sup> Coresponding Author
+<sup>†</sup> Corresponding Author
 
 <p align="center">
 <img src="figures/wave_propagation.gif" alt="Wave Propagation GIF" width="650"/>
