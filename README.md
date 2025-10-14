@@ -133,7 +133,7 @@ bash sh/run_test.sh
 
 # 📂 Repository Structure
 ```
-Explaiable_NOs/
+Interpretable_NOs/
 ├── config
 │   ├── model_config
 │   │   ├── CNO
